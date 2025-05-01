@@ -1,0 +1,155 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url('/images/bg.jpg') no-repeat center center fixed; /* Arka plan resmi */
+    background-size: cover; /* Arka planı tam ekran kaplar */
+    font-family: Arial, sans-serif; /* Genel yazı tipi */
+}
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-size: cover; /* Arka planı tam ekran kaplar */
+}
+
+.login-box {
+    background: white;
+    padding: 40px;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.logo {
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+.login-box h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+form input {
+    width: 93%; /* Butonla aynı genişlik */
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 2px solid #ccc;
+    background-color: #EFEFEF;
+    border-radius: 0; /* Köşeleri düzleştir */
+    color: #ccc; /* Varsayılan yazı rengi */
+}
+
+form input:focus, /* Tıklanınca */
+form input:not(:placeholder-shown) { /* Yazı yazıldığında */
+    color: #333; /* Yazı rengini koyu yap */
+    outline: none; /* Varsayılan mavi çerçeveyi kaldır */
+    border-color: #333; /* Çerçeve rengini koyu yap */
+}
+
+form button {
+    width: 100%;
+    padding: 12px;
+    background-color: #EFEFEF;
+    color: white;
+    border: none;
+    border-radius: 0; /* Köşeleri düzleştir */
+    cursor: pointer;
+    font-weight: bold;
+}
+
+form .login-btn {
+    background-color: #43b02a;
+    color: white;
+    border: none;
+    border-radius: 0; /* Köşeleri düzleştir */
+    cursor: pointer;
+    font-weight: bold;
+    padding: 12px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+
+form .login-btn:hover {
+    background-color: #218838; /* Giriş Yap butonunun hover rengi */
+    transform: scale(1.03); /* Hover sırasında hafif büyüme efekti */
+}
+
+.login-footer {
+    margin-top: 15px;
+}
+
+.login-footer a {
+    color: #333;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.login-footer a:hover {
+    text-decoration: underline;
+}
+.language-selector {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.language-selector label {
+    margin-right: 10px;
+    font-size: 14px;
+    color: #333;
+}
+
+.language-selector select {
+    padding: 5px;
+    color: #333;
+    background-color: #EFEFEF;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+footer.login-footer {
+    margin-top: 20px;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-evenly ; /* Elemanları yatayda dağıt */
+    align-items: center;
+    padding: 10px 20px; /* İç boşluk */
+    background-color: transparent; /* Arka planı şeffaf yap */
+    color: #333; /* Yazı rengini beyaz yap */
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.app-version {
+    font-size: 12px;
+    color: #333; /* Yazı rengini beyaz yap */
+}
+
+.mobiliz-image {
+    width: 50px; /* Görsel boyutu */
+    height: auto;
+}
+.password-container {
+    position: relative;
+    width: 93%; /* Şifre kutusunun genişliği */
+    margin-bottom: 15px;
+}
+
+.password-container input {
+    width: 100%;
+}
+
+.password-container .form-control-icon {
+    position: absolute;
+    top: 50%;
+    right: 0; /* Simgeyi kutunun en sağına yasla */
+    transform: translateY(-90%); /* Dikeyde ortala */
+    cursor: pointer;
+    font-size: 18px;
+    color: #333;
+}

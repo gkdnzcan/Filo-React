@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f5f7; /* Açık gri arka plan */
+    box-sizing: border-box;
+}
+
+.home-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.login-btn {
+    background-color: #43b02a; /* Mobiliz'e uygun yeşil ton */
+    color: white; /* Yazı rengi */
+    padding: 10px 20px; /* Butonun iç boşlukları azaltıldı */
+    font-size: 1rem; /* Yazı boyutu */
+    border: none; /* Kenarlık kaldırıldı */
+    border-radius: 8px; /* Köşeler yuvarlatıldı */
+    cursor: pointer; /* İmleç değişimi */
+    margin-bottom: 20px;
+    transition: background-color 0.3s, transform 0.2s; /* Hover animasyonu */
+}
+
+.login-btn:hover {
+    background-color: #218838; /* Hover sırasında daha koyu yeşil */
+    transform: scale(1.03); /* Hover sırasında hafif büyüme efekti */
+}
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Kartlar esnek bir şekilde hizalanır */
+    gap: 15px; /* Kartlar arasındaki boşluk */
+    width: 100%;
+    max-width: 1000px; /* Maksimum genişlik sınırı */
+    justify-content: center; /* Kartları yatayda ortalar */
+}
+
+.card {
+    background-color: rgb(34 96 24); /* Yeni arka plan rengi */
+    padding: 20px; /* Kart içeriği için boşluk */
+    border-radius: 10px; /* Köşeleri yuvarlat */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Hafif gölge */
+    transition: transform 0.2s, box-shadow 0.2s; /* Hover animasyonu */
+    text-align: left; /* Yazıları sola hizala */
+    color: white; /* Yazı rengi beyaz */
+}
+
+.card:hover {
+    transform: scale(1.02); /* Hover sırasında hafif büyüme efekti */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Daha belirgin gölge */
+}
+
+.card h3 {
+    font-size: 1.75rem; /* Daha büyük başlık yazı boyutu */
+    color: #ffffff; /* Beyaz başlık rengi */
+    margin-bottom: 15px; /* Başlık ile paragraf arasındaki boşluk */
+    font-weight: 700; /* Daha kalın yazı */
+    text-transform: capitalize; /* Başlıkların ilk harfini büyük yapar */
+    letter-spacing: 1px; /* Harfler arasında hafif boşluk */
+}
+
+.card p {
+    font-size: 1rem; /* Daha küçük paragraf yazı boyutu */
+    color: #a8d5ba; /* Daha açık yeşil yazı rengi */
+    font-weight: 400; /* Daha ince yazı */
+    line-height: 1.6; /* Satır yüksekliği artırıldı */
+    margin-top: 10px; /* Paragrafın üst boşluğu */
+    text-align: justify; /* Yazıyı iki yana yasla */
+}

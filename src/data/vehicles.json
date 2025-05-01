@@ -1,0 +1,185 @@
+{
+  "admin": {
+    "username": "admin@gmail.com",
+    "password": "admin123",
+    "vehicles": [
+      {
+        "id": 6062456,
+        "name": "Ford Focus",
+        "lat": 39.92077,
+        "lng": 32.85411,
+        "status": "Aktif",
+        "fleet": "Admin Filo",
+        "driver": "Ahmet Yılmaz",
+        "plate": "34ABC123",
+        "contact": "1234567890"
+      },
+      {
+        "id": 6062457,
+        "name": "Toyota Corolla",
+        "lat": 41.00824,
+        "lng": 28.97836,
+        "status": "Pasif",
+        "fleet": "Admin Filo",
+        "driver": "Mehmet Kaya",
+        "plate": "06DEF456",
+        "contact": "0987654321"
+      },
+      {
+        "id": 6062458,
+        "name": "Renault Megane",
+        "lat": 38.41925,
+        "lng": 27.12872,
+        "status": "Aktif",
+        "fleet": "Admin Filo",
+        "driver": "Ayşe Demir",
+        "plate": "35GHI789",
+        "contact": "1122334455"
+      },
+      {
+        "id": 6062459,
+        "name": "Volkswagen Passat",
+        "lat": 40.0,
+        "lng": 29.0,
+        "status": "Pasif",
+        "fleet": "Admin Filo",
+        "driver": "Fatma Çelik",
+        "plate": "16JKL012",
+        "contact": "6677889900"
+      }
+    ]
+  },
+  "canfilo": {
+    "username": "canfilo@gmail.com",
+    "password": "can123",
+    "vehicles": [
+      {
+        "id": 6062460,
+        "name": "Hyundai Tucson",
+        "lat": 39.92077,
+        "lng": 32.85411,
+        "status": "Aktif",
+        "fleet": "Can Filo",
+        "driver": "Can Bey",
+        "plate": "34MNO345",
+        "contact": "5544332211"
+      },
+      {
+        "id": 6062461,
+        "name": "Honda Civic",
+        "lat": 41.00824,
+        "lng": 28.97836,
+        "status": "Pasif",
+        "fleet": "Can Filo",
+        "driver": "Ali Veli",
+        "plate": "06PQR678",
+        "contact": "9988776655"
+      },
+      {
+        "id": 6062462,
+        "name": "Peugeot 3008",
+        "lat": 40.5,
+        "lng": 29.5,
+        "status": "Aktif",
+        "fleet": "Can Filo",
+        "driver": "Zeynep Ak",
+        "plate": "34STU901",
+        "contact": "4433221100"
+      },
+      {
+        "id": 6062463,
+        "name": "BMW X5",
+        "lat": 39.8,
+        "lng": 28.8,
+        "status": "Pasif",
+        "fleet": "Can Filo",
+        "driver": "Hakan Yıldız",
+        "plate": "16VWX234",
+        "contact": "6677885544"
+      },
+      {
+        "id": 6062464,
+        "name": "Mercedes-Benz C200",
+        "lat": 39.5,
+        "lng": 30.5,
+        "status": "Aktif",
+        "fleet": "Can Filo",
+        "driver": "Elif Nur",
+        "plate": "06YZA567",
+        "contact": "1122446688"
+      }
+    ]
+  },
+  "yildizfilo": {
+    "username": "yildizfilo@gmail.com",
+    "password": "yildiz123",
+    "vehicles": [
+      {
+        "id": 6062465,
+        "name": "Audi A4",
+        "lat": 37.06622,
+        "lng": 37.38332,
+        "status": "Aktif",
+        "fleet": "Yıldız Filo",
+        "driver": "Murat Öz",
+        "plate": "27ABC890",
+        "contact": "9988771122"
+      },
+      {
+        "id": 6062466,
+        "name": "Skoda Octavia",
+        "lat": 40.18257,
+        "lng": 29.06687,
+        "status": "Pasif",
+        "fleet": "Yıldız Filo",
+        "driver": "Selin Çakır",
+        "plate": "34DEF123",
+        "contact": "5566778899"
+      },
+      {
+        "id": 6062467,
+        "name": "Volvo XC60",
+        "lat": 40.0,
+        "lng": 30.0,
+        "status": "Aktif",
+        "fleet": "Yıldız Filo",
+        "driver": "Eren Kılıç",
+        "plate": "06GHI456",
+        "contact": "2233445566"
+      },
+      {
+        "id": 6062468,
+        "name": "Nissan Qashqai",
+        "lat": 41.5,
+        "lng": 29.5,
+        "status": "Pasif",
+        "fleet": "Yıldız Filo",
+        "driver": "Buse Yılmaz",
+        "plate": "34JKL789",
+        "contact": "7788990011"
+      },
+      {
+        "id": 6062469,
+        "name": "Kia Sportage",
+        "lat": 40.5,
+        "lng": 29.8,
+        "status": "Aktif",
+        "fleet": "Yıldız Filo",
+        "driver": "Deniz Arslan",
+        "plate": "16MNO234",
+        "contact": "3344556677"
+      },
+      {
+        "id": 6062470,
+        "name": "Mazda CX-5",
+        "lat": 39.9,
+        "lng": 29.0,
+        "status": "Pasif",
+        "fleet": "Yıldız Filo",
+        "driver": "Cem Aksoy",
+        "plate": "06PQR567",
+        "contact": "8899001122"
+      }
+    ]
+  }
+}
